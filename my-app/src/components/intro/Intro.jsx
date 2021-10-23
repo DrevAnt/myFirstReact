@@ -1,36 +1,30 @@
-
-import "./Intro.css"
-import Me from "../../img/me3.png"
+import "./Intro.css";
+import Me from "../../img/me3.png";
 
 const Intro = () => {
-    return (
-        <div className='i'>
-            <div className='i-left'>
-                <div className="i-left-wrapper">
-                 <h2 className='i-intro'>Hello, My name is</h2>
-                 <h1 className='i-name'>John Doe</h1>
-                 <div className="i-title">
-                     <div className="i-title-wrapper">
-                         <div className="i-title-item">
-                             Web-Developer
-                         </div>
-                         <div className="i-title-item">
-                             Lorem Ipsum
-                         </div>
-                         <div className="i-title-item">
-                             Lorem Ipsum
-                         </div>
-                         <div className="i-title-item">
-                             Lorem Ipsum
-                         </div>
-                         <div className="i-title-item">
-                             Lorem Ipsum
-                         </div>
-                     </div>
-                 </div>
-                 <p className="i-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt nam officia neque quasi, suscipit recusandae obcaecati eaque laudantium sequi excepturi modi distinctio quae eos voluptates molestias sunt incidunt reprehenderit dolores?</p>
-                </div>
-                <svg
+  return (
+    <div className="i">
+      <div className="i-left">
+        <div className="i-left-wrapper">
+          <h2 className="i-intro">Hello, My name is</h2>
+          <h1 className="i-name">John Doe</h1>
+          <div className="i-title">
+            <div className="i-title-wrapper">
+              <div className="i-title-item">Web-Developer</div>
+              <div className="i-title-item">Lorem Ipsum</div>
+              <div className="i-title-item">Lorem Ipsum</div>
+              <div className="i-title-item">Lorem Ipsum</div>
+              <div className="i-title-item">Lorem Ipsum</div>
+            </div>
+          </div>
+          <p className="i-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+            nam officia neque quasi, suscipit recusandae obcaecati eaque
+            laudantium sequi excepturi modi distinctio quae eos voluptates
+            molestias sunt incidunt reprehenderit dolores?
+          </p>
+        </div>
+        <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -61,9 +55,9 @@ const Intro = () => {
                 id="Vector_3"
                 d="M9 37.5H60"
                 strokeWidth="3"
-              strokeMiterlimit="10"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
             <path
@@ -79,21 +73,20 @@ const Intro = () => {
                 id="Vector_5"
                 d="M9 27C9 12.918 20.418 1.5 34.5 1.5C48.5859 1.5 60 12.918 60 27C60 29.8906 60 45.1094 60 48C60 62.082 48.5859 73.5 34.5 73.5C20.418 73.5 9 62.082 9 48C9 45.1094 9 29.8906 9 27Z"
                 strokeWidth="3"
-              strokeMiterlimit="10"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </g>
-        </svg>               
-            </div>
-            <div className='i-right'>
-                <div className="i-bg"></div>
-                <img src={Me} alt="" className="i-img" />
-            </div>
-            
-        </div>
-    )
-}
+        </svg>
+      </div>
+      <div className="i-right">
+        <div className="i-bg"></div>
+        <img src={Me} alt="" className="i-img" />
+      </div>
+    </div>
+  );
+};
 
-export default Intro
+export default Intro;
